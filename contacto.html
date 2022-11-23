@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="rg.png" />
+	<title>Resolved Gaming</title>
+</head>
+<body>
+	<nav>
+		<img class="logo" src="rg.png">
+		<a href="index.html">Home</a>
+		<a href="articulos.html">Hardware</a>
+		<a href="servicios.html">Servicios</a>
+		<a href="alquiler.html">Reserva una hora</a>
+		<a href="contacto.html">Contacto</a> 	
+	</nav>
+ <hr>
+
+<h2>Resuelve tus dudas</h2>
+
+<form action="formulario.php" method="get">
+	<div class="formulario">
+		<label for="nombre"> Nombre: </label> <input type="text" name="nombre"> <br>
+		<label for="apellidos"> Apellidos: </label> <input type="text" name="apellidos"><label for="apellidos"></label> <input type="text" name="apellidos">
+		<br>
+		<label for="email"> Correo electrónico: </label> <input type="email" name="email"> <br>
+		<label for="seleccion" > Departamento: </label>
+		<select name="seleccion" id="seleccion">
+			<option value="reparacion">Servicio técnico</option>
+			<option value="alquiler">Alquiler de equipos</option>
+			<option value="alquiler">Personalización GAMING</option>
+			<option value="alquiler">Empresas</option>
+			<option value="alquiler">Otros</option>
+		</select><br>
+		<textarea name="comentarios" value="comentarios" rows="10" cols="70"></textarea> <br>
+		<input class="reserva" type="submit" name="enviar">
+	</div>	
+</form>
+
+
+	
+</body>
+
+<footer>
+	<p> Página web para la síntesis del proyecto <br> CFGM Sistemas Microinformáticos y Redes <br>
+	&copy Loreto Garde Navarro
+	<img class="logo" src="rg.png" alt="Logotipo">	
+	</p>
+</footer>
+
+</html>
